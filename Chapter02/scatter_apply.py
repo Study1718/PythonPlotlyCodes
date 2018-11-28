@@ -9,7 +9,7 @@ import plotly.graph_objs as pygo
 pd.set_option('display.width', 450)
 pyplt = py.offline.plot
 # ----------code
-df = pd.read_csv('dat/tk01_m15.csv')
+df = pd.read_csv('dat/tk01_m15.csv')  #请问这一步错误怎么办？
 df9 = df[:10];
 print(df9)
 #
